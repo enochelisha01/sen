@@ -1,0 +1,139 @@
+.left img {
+    position: relative;
+    left:350px;
+    width:50px;
+    height:50px;
+}
+
+.right img {
+    position: relative;
+    right:365px;
+    width:50px;
+    height:50px;
+
+}
+
+.testimonial {
+
+    width: 500px;
+    height: 250px;
+    margin: 200px;
+    margin-left: 295px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.header #test {
+
+
+    color:aqua;
+    font-size: 19px;
+}
+
+#text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    gap:10px;
+
+}
+
+.inner-container_1, .inner-container_2, .inner-container_3 {
+    width:10rem;
+    height:10rem;
+    display: block;
+    padding-right: 50px;
+}
+
+.inner-container_1 p {
+    
+}
+
+.profile_pic {
+    position: relative;
+    display: inline-block;
+    top:20px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border:1px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sec {
+
+    width:200px;
+    height:200px;
+}
+
+.sec > #com {
+
+    color:aqua;
+}
+
+img {
+
+    width:20px;
+    height:20px;
+}
+
+.star_tech {
+
+    display: flex;
+
+    flex-direction: row;
+    gap:10px;
+}
+
+.profile_pic > img {
+
+    width:50px;
+    height:50x;
+    border-radius: 50%;
+}
+
+.nav_1, .nav_2 {
+    display: inline-block;
+    padding: 5px 40px; 
+    border-radius: 20px;
+    background-color: rgb(228, 222, 222); 
+    border: 1px solid white;
+}
+
+.nav_2 {
+    background-color: aqua;
+}
+
+.navbar {
+
+    position: relative;
+    display: flex;
+    padding-left: 350px;
+    bottom:40px;
+    gap:30px;
+}
